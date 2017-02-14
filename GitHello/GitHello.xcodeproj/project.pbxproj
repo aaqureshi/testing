@@ -12,6 +12,7 @@
 		B8B18AAD1E52E37200A7A124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B18AAB1E52E37200A7A124 /* Main.storyboard */; };
 		B8B18AAF1E52E37200A7A124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B18AAE1E52E37200A7A124 /* Assets.xcassets */; };
 		B8B18AB21E52E37200A7A124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B18AB01E52E37200A7A124 /* LaunchScreen.storyboard */; };
+		B8B18ABA1E52E59A00A7A124 /* classFortesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B18AB91E52E59A00A7A124 /* classFortesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B8B18AAE1E52E37200A7A124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8B18AB11E52E37200A7A124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8B18AB31E52E37200A7A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B18AB91E52E59A00A7A124 /* classFortesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classFortesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B8B18AAE1E52E37200A7A124 /* Assets.xcassets */,
 				B8B18AB01E52E37200A7A124 /* LaunchScreen.storyboard */,
 				B8B18AB31E52E37200A7A124 /* Info.plist */,
+				B8B18AB91E52E59A00A7A124 /* classFortesting.swift */,
 			);
 			path = GitHello;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B18ABA1E52E59A00A7A124 /* classFortesting.swift in Sources */,
 				B8B18AAA1E52E37200A7A124 /* ViewController.swift in Sources */,
 				B8B18AA81E52E37200A7A124 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				B8B18AB81E52E37200A7A124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
